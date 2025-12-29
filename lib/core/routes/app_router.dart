@@ -38,14 +38,8 @@ final GoRouter appRouter = GoRouter(
   },
 
   routes: [
-    GoRoute(
-      path: AppRoutes.login,
-      builder: (_, __) => const LoginPage(),
-    ),
-    GoRoute(
-      path: AppRoutes.home,
-      builder: (_, __) => const HomePage(),
-    ),
+    GoRoute(path: AppRoutes.login, builder: (_, __) => const LoginPage()),
+    GoRoute(path: AppRoutes.home, builder: (_, __) => const HomePage()),
     // GoRoute(
     //   path: AppRoutes.qrPage,
     //   builder: (_, __) => const QrPage(),
